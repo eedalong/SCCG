@@ -38,7 +38,7 @@ Please note the following points to successfully run the program:
 	3. Please ensure that the 7zip tool path is set up correctly, we assume that the path name is "./7za" under the Linux system. 
 	4. For compression, ensure that the input file names are not with suffix ".7z";
 	5. For decompression, ensure that the compressed file name is with suffix ".7z", and only one ".7z" string can be found in the filename;
-	6. It is not recommended that input and output files are put in the same directory, although the tests are successful at present.
+	6. It is not recommended that input and output files are put in the same directory.
 
 //Compression and decompression for an entire human genome folder
 　　The calling conventions of ORGC and ORGD are similar to that of the SCCGC and SCCGD. 
@@ -67,5 +67,3 @@ java -Xms8192m -Xmx10g ORGD ./genome/hg18 ./result/result.7z ./dresult
 
 //Contacts
     If you have any questions regarding our algorithm, please contact me at chenjh@ynu.edu.cn  .
-
-
